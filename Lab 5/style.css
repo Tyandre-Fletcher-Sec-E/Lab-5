@@ -68,6 +68,7 @@ ul {
     flex-wrap: wrap;
     align-items: center;
     padding: 0 20% 0 20%;   
+    position: relative;
 }
 
 .artistName {
@@ -82,6 +83,7 @@ ul {
     border-radius: 5%;
     box-sizing: border-box;
     width: 19%;
+    position: relative;
 }
 
 .card:hover {
@@ -109,4 +111,18 @@ ul {
 .flex-3 {
    display: flex;
    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 0 10% 0 10%; 
+    }
+
+    section {
+        padding: 15% 10% 0 10%; 
+    }
+
+    .card {
+        width: 45%; 
+    }
 }

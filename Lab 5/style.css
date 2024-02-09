@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'DM Mono', monospace;
+    font-family: 'Roboto', sans-serif;
+    src: url(RobotoMono-Regular.ttf);
+}
+
+body {
+    margin:0;
+    color: white;
+    background-color: #19191A;
+}
+
+header {
+    font-family: 'DM Mono';
+    display: flex;
+    justify-content: space-between;
+    padding:0 15% 0 15%;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 40px;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 25px;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    margin-right: 17px;
+}
+
+ul {
+    padding-top: 20px;
+}
